@@ -7,4 +7,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    //app color
+    <color name="primary_color">#B82222</color>
+    <color name="light_red_color">#BD3636</color>
+    <color name="black_color">#020202</color>
+    <color name="background_color">#FFFFFF</color>
+    <color name="error_color">#BD2D2D</color>
+    <color name="gray_color">#7A7A7A</color>
+    <color name="success_color">#39983D</color>
+    <color name="white_color">#FFFFFF</color>
 </resources>
