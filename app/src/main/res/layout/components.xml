@@ -12,16 +12,16 @@
         android:background="@drawable/custom_input"
         android:drawableStart="@drawable/ic_email_custom"
         android:drawablePadding="12dp"
-        android:paddingStart="12dp"
-        android:hint="Username"
         android:ems="10"
+        android:hint="Username"
         android:inputType="textEmailAddress"
+        android:paddingStart="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.619"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.235" />
+        app:layout_constraintVertical_bias="0.283" />
 
     <EditText
         android:id="@+id/editTextNumberPassword"
@@ -74,37 +74,37 @@
         android:drawableStart="@drawable/ic_search"
         android:paddingStart="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.841" />
+        app:layout_constraintVertical_bias="0.725" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:background="@drawable/button_ic"
         android:drawableStart="@drawable/ic_camera"
         android:paddingStart="12dp"
-        android:background="@drawable/button_ic"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.257"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.745" />
+        app:layout_constraintVertical_bias="0.725" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:background="@drawable/custom_button_ic_bag"
-        android:drawableStart="@drawable/ic_bag_custom"
-        android:paddingStart="12dp"
+        android:background="@drawable/custom_button_ic_white"
+        android:drawableStart="@drawable/ic_bag_custom_red"
+        android:paddingStart="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.706"
+        app:layout_constraintHorizontal_bias="0.637"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.745" />
+        app:layout_constraintVertical_bias="0.725" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="50dp"
@@ -113,11 +113,24 @@
         android:drawableStart="@drawable/ic_favorite_custom"
         android:paddingStart="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintHorizontal_bias="0.044"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.745" />
+        app:layout_constraintVertical_bias="0.623" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_button_ic_favorite"
+        android:drawableStart="@drawable/ic_favorite_custom"
+        android:paddingStart="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.725" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="50dp"
@@ -126,11 +139,11 @@
         android:drawableStart="@drawable/ic_add_custom"
         android:paddingStart="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.706"
+        app:layout_constraintHorizontal_bias="0.844"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.841" />
+        app:layout_constraintVertical_bias="0.725" />
 
     <androidx.appcompat.widget.AppCompatImageButton
         android:layout_width="80dp"
@@ -138,23 +151,23 @@
         android:background="@drawable/custom_button_ic_sm"
         android:src="@drawable/ic_google"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintHorizontal_bias="0.371"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.95" />
+        app:layout_constraintVertical_bias="0.853" />
 
     <androidx.appcompat.widget.AppCompatImageButton
         android:layout_width="80dp"
         android:layout_height="60dp"
         android:background="@drawable/custom_button_ic_sm"
-        android:src="@drawable/facebook_logo__2019__2"
+        android:src="@drawable/ic_facebook"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintHorizontal_bias="0.694"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.95" />
+        app:layout_constraintVertical_bias="0.853" />
 
     <Spinner
         android:layout_width="100dp"
@@ -179,4 +192,123 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.075" />
 
+    <CheckBox
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:buttonTint="@color/black_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        android:theme="@style/SCBSwitch"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.132" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="ordinary tag"
+        android:textSize="10sp"
+        android:textColor="@drawable/text_color_ordinary"
+        android:background="@drawable/custom_button_ordinary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.115" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="@drawable/custom_button_small"
+        android:text="small tag"
+        android:textColor="@drawable/text_color_small"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:background="@drawable/label"
+        android:backgroundTint="@color/primary_color"
+        android:text="tag"
+        android:textSize="14sp"
+        android:textColor="@color/white_color"
+        android:textAlignment="center"
+        android:paddingTop="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:background="@drawable/label"
+        android:backgroundTint="@color/black_color"
+        android:paddingTop="1dp"
+        android:text="tag"
+        android:textAlignment="center"
+        android:textColor="@color/white_color"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <com.google.android.material.slider.RangeSlider
+        android:id="@+id/my_range_slider"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:stepSize="1"
+        android:valueFrom="0"
+        android:valueTo="100"
+        app:thumbColor="@color/light_red_color"
+        app:trackColorActive="@color/light_red_color"
+        app:trackColorInactive="@color/light_gray_color"
+        app:tickColor="@color/light_gray_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <androidx.appcompat.widget.AppCompatRatingBar
+        android:id="@+id/my_rating_bar"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="3"
+        android:stepSize="0.5"
+        android:theme="@style/Theme.Rating"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
 </androidx.constraintlayout.widget.ConstraintLayout>
