@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="328dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bottom_dialog_bg">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="8dp"
+        android:background="@drawable/custom_line"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Select size"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black_color"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridLayout
+        android:id="@+id/size_list_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:columnCount="3"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.304">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/size1"
+            android:text="XS"
+            android:textSize="16sp"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            android:textColor="@drawable/text_color_ordinary"
+            android:background="@drawable/custom_button_ordinary" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/size2"
+            android:text="S"
+            android:textSize="16sp"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            android:textColor="@drawable/text_color_ordinary"
+            android:background="@drawable/custom_button_ordinary" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/size3"
+            android:text="M"
+            android:textSize="16sp"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            android:textColor="@drawable/text_color_ordinary"
+            android:background="@drawable/custom_button_ordinary" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/size4"
+            android:text="L"
+            android:textSize="16sp"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            android:textColor="@drawable/text_color_ordinary"
+            android:background="@drawable/custom_button_ordinary" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/size5"
+            android:text="XL"
+            android:textSize="16sp"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            android:textColor="@drawable/text_color_ordinary"
+            android:background="@drawable/custom_button_ordinary" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/size6"
+            android:text="XXL"
+            android:textSize="16sp"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            android:textColor="@drawable/text_color_ordinary"
+            android:background="@drawable/custom_button_ordinary" />
+    </GridLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submitSize_btn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_button_primary"
+        android:text="Select"
+        android:textSize="18sp"
+        android:textColor="@drawable/text_color_primary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/size_list_grid"
+        app:layout_constraintVertical_bias="0.6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
