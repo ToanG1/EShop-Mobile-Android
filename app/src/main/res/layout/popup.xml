@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="170dp"
+    android:layout_height="96dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/custom_box">
+    <androidx.appcompat.widget.AppCompatButton
+        style="?android:attr/borderlessButtonStyle"
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="47.5dp"
+        android:text="Add to favorites"
+        android:textSize="10sp"
+        android:textColor="@drawable/text_color_outline"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_gray_color"
+        app:layout_constraintTop_toBottomOf="@+id/btn1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn2"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn2"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="47.5dp"
+        android:text="Delete from the list"
+        android:textSize="10sp"
+        android:textAllCaps="false"
+        android:textColor="@drawable/text_color_outline"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
